@@ -2,10 +2,10 @@ import { Coin } from "@cosmjs/amino"
 import { calculateFee } from "@cosmjs/stargate"
 /*
  * This is a set of helpers meant for use with @cosmjs/cli
- * Look at https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/master/base.ts on how to setup a wallet
+ * Look at https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/main/base.ts on how to setup a wallet
  * With these you can easily use the cw3 contract without worrying about forming messages and parsing queries.
  *
- * Usage: npx @cosmjs/cli@^0.26 --init https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/master/base.ts --init https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/master/cw3-flex-multisig.ts
+ * Usage: npx @cosmjs/cli@^0.26 --init https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/main/base.ts --init https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/main/cw3-flex-multisig.ts
  *
  * Create a client:
  *   const [addr, client] = await useOptions(uniOptions).setup('password');
