@@ -2,10 +2,10 @@ import { calculateFee } from "@cosmjs/stargate"
 
 /*
  * This is a set of helpers meant for use with @cosmjs/cli
- * Look at https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/master/contracts/base.ts on how to setup a wallet
+ * Look at https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/main/contracts/base.ts on how to setup a wallet
  * With these you can easily use the cw20 contract without worrying about forming messages and parsing queries.
  *
- * Usage: npx @cosmjs/cli@^0.26 --init https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/master/base.ts --init https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/master/cw4-group.ts
+ * Usage: npx @cosmjs/cli@^0.26 --init https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/main/base.ts --init https://raw.githubusercontent.com/InterWasm/cw-plus-helpers/main/cw4-group.ts
  *
  * Create a client:
  *   const [addr, client] = await useOptions(uniOptions).setup('password');
