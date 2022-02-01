@@ -51,7 +51,22 @@ const pebblenetOptions: Options = {
   },
   gasPrice: GasPrice.fromString("0.01upebble"),
 }
-
+// Additional Code
+const wasmdOptions: Options = {
+  httpUrl: 'http://0.0.0.0:26657',
+  networkId: 'wasmd',
+  bech32prefix: 'wasm',
+  feeToken: 'six',
+  faucetUrl: 'http://0.0.0.0:4500',
+  hdPath: makeCosmoshubPath(0),
+  defaultKeyFile: path.join(process.env.HOME, ".sixkey.key"),
+  fees: {
+    upload: 1500000,
+    init: 500000,
+    exec: 200000,
+  },
+  gasPrice: GasPrice.fromString("0.01six"),
+}
 const uniOptions: Options = {
   httpUrl: 'https://rpc.uni.juno.deuslabs.fi',
   networkId: 'uni',
