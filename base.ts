@@ -1,3 +1,5 @@
+global.TextEncoder = require("util").TextEncoder;
+global.TextDecoder = require("util").TextDecoder;
 import axios from  "axios";
 import fs from "fs";
 import { SigningCosmWasmClient } from "@cosmjs/cosmwasm-stargate";
