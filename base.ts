@@ -66,7 +66,7 @@ const wasmdOptions: Options = {
     exec: 200000,
   },
   gasPrice: GasPrice.fromString("0.01six"),
-}
+},
 const uniOptions: Options = {
   httpUrl: 'https://rpc.uni.juno.deuslabs.fi',
   networkId: 'uni',
